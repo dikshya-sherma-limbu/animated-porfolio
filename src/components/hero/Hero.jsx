@@ -53,20 +53,25 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>Software Developer</motion.h1>
 
           <div className="buttons " id="buttons">
-            <motion.button
-              aria-labelledby="download"
-              id="download"
-              variants={textVariants}
-            >
-              Download CV
-            </motion.button>
-            <motion.button
-              aria-labelledby="contact"
-              id="contact"
-              variants={textVariants}
-            >
-              Contact Me
-            </motion.button>
+            <a href="/Resume.pdf" download="Resume.pdf">
+              <motion.button
+                aria-labelledby="download"
+                className="download"
+                id="download"
+                variants={textVariants}
+              >
+                Download CV
+              </motion.button>
+            </a>
+            <a href="#Contact">
+              <motion.button
+                aria-labelledby="contact"
+                id="contact"
+                variants={textVariants}
+              >
+                Contact Me
+              </motion.button>
+            </a>
           </div>
           <motion.img
             variants={textVariants}
