@@ -33,7 +33,7 @@ const Contact = () => {
       y: 0,
       opacity: 1,
       transition: {
-        duration: 0.5,
+        duration: 0.5, // duration of each children animation
         straggerChildren: 0.2, // make children animate one after another
       },
     },

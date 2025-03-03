@@ -44,15 +44,15 @@ const SingleItem = ({ item }) => {
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
 
-            <motion.div className="buttons">
+            <motion.div className="links">
               <a
-                href="https://github.com/your-username/your-repo-name"
+                href="https://github.com/dikshya-sherma-limbu/movie-recommend-system"
                 target="_blank"
                 rel="noreferrer"
               >
-                View
+                Github
               </a>
-              <button>Github</button>
+              <a>View</a>
             </motion.div>
           </motion.div>
         </div>

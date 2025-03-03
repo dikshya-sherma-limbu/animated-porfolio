@@ -5,6 +5,7 @@ import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Cursor from "./components/cursor/Cursor";
+import About from "./components/about/About";
 const App = () => {
   return (
     <div>
@@ -13,17 +14,23 @@ const App = () => {
         <Navbar />
         <Hero />
       </section>
-      <section id="Services">
-        <Parallax type="services" />
+      <section id="About">
+        <Parallax type="about" />
       </section>
+      <section>
+        <About />
+      </section>
+
       {/* <section>Services</section> */}
-      <section id="Portfolio">
+      <section id="Projects">
         <Parallax type="portfolio" />
       </section>
+
       <Portfolio />
-      {/* <section id="Contact">
+
+      <section id="Contact">
         <Contact />
-      </section> */}
+      </section>
     </div>
   );
 };

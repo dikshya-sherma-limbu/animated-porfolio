@@ -29,8 +29,7 @@ const NavigatePage = ({ setOpen }) => {
   const links = [
     { name: "Home" },
     { name: "About" },
-    { name: "Services" },
-    { name: "Portfolio" },
+    { name: "Projects" },
     { name: "Contact" },
   ];
   return (

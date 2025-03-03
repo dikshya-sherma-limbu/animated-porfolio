@@ -10,25 +10,25 @@ function Navbar() {
         <Sidebar />
 
         <div className="social">
-          <a href="#">
+          <a href="https://www.facebook.com/dikshya.sherma.1/">
             <img src="/facebook.png" alt="facebook" />
           </a>
           <a
-            href="https://www.instagram.com/dikshya_sherma/"
+            href="https://www.instagram.com/dikshya__limbu/"
             target="_blank"
             rel="noreferrer"
           >
             <img src="/instagram.png" alt="instagram" />
           </a>
           <a
-            href="https://www.linkedin.com/in/dikshya-sherma-7b0b3b1b2/"
+            href="https://www.linkedin.com/in/dikshya-limbu/"
             target="_blank"
             rel="noreferrer"
           >
             <img src="/linkedin.png" alt="linkedin" />
           </a>
           <a
-            href="https://www.github.com/dikshya-sherma"
+            href="https://github.com/dikshya-sherma-limbu"
             target="_blank"
             rel="noreferrer"
           >
